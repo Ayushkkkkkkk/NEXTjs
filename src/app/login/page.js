@@ -1,7 +1,10 @@
+import Link from "next/link"
+
+
 const Login = ()=>{
     return (
         <div>
-            Hello login page
+            <Link href="/">Go to home page</Link>
         </div>
     )
 }
