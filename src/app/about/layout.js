@@ -1,7 +1,12 @@
+'use client'
+import { usePathname } from "next/navigation"
+
 export default function Layout({children}) {
+    const pathName = usePathname();
+    console.log(pathName);
     return (
         <div>
-            <h1>common layout for about page</h1>
+            {pathName !="/about/aboutCollage"?<h1>common layout for about page</h1>:null}
             {
                 children
             }
