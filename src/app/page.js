@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Routing</h1>
+      <h2>land</h2>
       <Link href="/login">Login</Link>
       <Link href="/about">About</Link>
 
