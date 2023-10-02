@@ -1,6 +1,6 @@
 "use client";
 import Link from 'next/link'
-import styles from './page.module.css'
+import styles from './style.module.css'
 import {useRouter} from "next/navigation"
 
 export default function Home() {
@@ -10,7 +10,8 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1>Routing</h1>
+      <h1 className='main'>Routing</h1>
+      <h2 className='main'>land</h2>
       <Link href="/login">Login</Link>
       <Link href="/about">About</Link>
 
