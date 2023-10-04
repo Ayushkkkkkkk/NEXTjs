@@ -6,10 +6,7 @@ export default async function Page(){
     console.log(land)
     return (
         <div>
-            <h1>User list</h1>
-            {
-               
-            }
+          
         </div>
     )
 }
